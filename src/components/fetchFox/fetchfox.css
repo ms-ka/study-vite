@@ -1,0 +1,17 @@
+.fox-wrapper{
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    border: 2px dashed darkgreen;
+    /* stworzyliśmy zaokrąglone rogi */
+    border-radius: 50%;
+    /* tu schowaliśmy częśc obrazu, która nie mieści się w ramce */
+    overflow: hidden;
+    
+}
+
+.fox-wrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

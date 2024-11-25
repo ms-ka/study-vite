@@ -1,0 +1,9 @@
+
+/* umieszczenie ProfileCard na środku i ustawienie */
+.homework-02 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* odległość od siebie*/
+    padding: 20px;/* odległość od tekstu*/
+    flex-wrap: wrap; /*automatyczne przenoszenie w nowy wers*/
+  }

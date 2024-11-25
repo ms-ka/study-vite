@@ -1,0 +1,10 @@
+.feedback-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Wypośrodkowanie pionowe */
+}
+
+.feedback-container div {
+    display: flex;
+    align-items: center;
+}

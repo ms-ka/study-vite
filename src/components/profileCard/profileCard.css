@@ -1,0 +1,39 @@
+.profile-card {
+    border: 1px solid #5af6a5; /*ramka*/
+    border-radius: 5px; /*zaokrąglenie ramki */
+    padding: 16px;  /*odstęp*/
+    text-align: center;  /*wycentrowanie w ramce*/
+    width: 250px; /* szerokość karty */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* cień */
+    margin: 10px; /* odstęp między kartami */
+  }
+  
+  .profile-card-avatar {
+    width: 100px; /* szerokość awatara */
+    height: 100px; /* wysokość awatara */
+    border-radius: 50%; /* zaokrąglenie do kształtu koła */
+    object-fit: cover; /* przycięcie zdjęcia w celu zachowania proporcji */
+    margin-bottom: 10px; /* odstęp pod zdjęciem */
+    box-shadow: 0 0px 20px rgba(196, 235, 21, 0.82); /* cień */
+    border: 3px solid #f3f5f4; /*ramka*/
+
+  }
+  
+  .profile-card-name {
+    font-size: 1.5em; /* rozmiar czcionki dla imienia */
+    margin: 10px 0; /* odstęp dla imienia */
+    color: #3ae2c1;
+    border-radius: 5px; /*zaokrąglenie ramki */
+    box-shadow: 0 0px 20px rgba(0, 14, 11, 0.5); /* cień */
+  }
+  
+  .profile-card-occupation {
+    font-size: 1em; /* rozmiar czcionki dla zawodu */
+  }
+  
+  .profile-card-hobbies ul {
+    list-style-type: none; /* usunięcie punktów listy */
+    padding: 0; /* usunięcie domyślnego paddingu */
+  }
+  
+  

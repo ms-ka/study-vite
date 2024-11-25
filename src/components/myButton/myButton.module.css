@@ -1,0 +1,24 @@
+.myButton {
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px 12px;
+  border-radius: 15px;
+  border: none;
+}
+
+.btnPrimary {
+  background-color: rgb(105, 188, 240);
+}
+.btnDanger {
+  background-color: red;
+}
+
+/* styl dla guzika jesli false */
+.btnPrimary:hover {
+  background-color: rgb(165, 235, 105);
+}
+/* styl dla guzika jesli true */
+.btnDanger:hover {
+  background-color: rgb(225, 235, 97);
+}

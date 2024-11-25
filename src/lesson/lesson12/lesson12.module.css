@@ -1,0 +1,12 @@
+.form{
+    /* odstęp od elementu powyżej */
+    margin-top: 12px;
+    display: flex;
+    /* ustawienie każdej kolumny w nowej linii */
+    flex-direction: column;
+}
+
+.form > input {
+    /* odstępy od okienek */
+    margin-bottom: 3 px;
+}

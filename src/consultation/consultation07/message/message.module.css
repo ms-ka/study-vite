@@ -1,0 +1,14 @@
+.messageWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.messageTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.messageText {
+  font-size: 14px;
+}

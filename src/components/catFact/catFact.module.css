@@ -1,0 +1,16 @@
+.catContainer {
+  text-align: center;
+  padding: 20px;
+}
+.catWrapper {
+  border: 1px solid #d50606;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 0 auto; /* centrowanie na stronie */
+  max-width: 400px;
+  /*blok max 700 na wysokość */
+  max-height: 700px;
+  /*dodanie przewijania gdy wysokość przekroczy limit */
+  overflow-y: auto;
+  background-color: #f4f0f0;
+}

@@ -1,0 +1,32 @@
+.shopContainer {
+    display: grid;
+    width: 100%;
+    /* kolumna rozciąga się tylko do momentu, aż osiągnie 300 px, dalej przenosi się na nową linię */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* wysokość jednego pola */
+    grid-auto-rows: 480px;
+    /* techniczne linie */
+    gap: 10px;
+  }
+  
+  /* ustawienia dla pojedynczej karty */
+  .shopContainerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(255, 1, 1);
+    border-radius: 10px;
+    padding: 20px 10px 20px;
+  }
+  
+  .imgWrapper {
+    margin: 20px 0 20px;
+    width: 100%;
+    height: 250px;
+  }
+  
+  .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
